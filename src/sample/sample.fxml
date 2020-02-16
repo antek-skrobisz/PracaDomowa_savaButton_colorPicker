@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <TableView fx:id="carTableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="125.0" text="Make" />
+          <TableColumn prefWidth="150.0" text="Model" />
+            <TableColumn prefWidth="75.0" text="Year" />
+            <TableColumn prefWidth="50.0" text="Diesel" />
+            <TableColumn prefWidth="100.0" text="Power" />
+            <TableColumn prefWidth="100.0" text="Color" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <Pane prefHeight="48.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="248.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#saveChanges" text="Save changes" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

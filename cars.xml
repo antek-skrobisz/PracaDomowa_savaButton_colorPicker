@@ -1,0 +1,26 @@
+<list>
+  <sample.model.Car>
+    <make>serdelek</make>
+    <model>Focus</model>
+    <yearOfProduction>2006</yearOfProduction>
+    <diesel>true</diesel>
+    <enginePower>83.0</enginePower>
+    <color>#FFCC33</color>
+  </sample.model.Car>
+  <sample.model.Car>
+    <make>parowka</make>
+    <model>Carrera</model>
+    <yearOfProduction>1976</yearOfProduction>
+    <diesel>true</diesel>
+    <enginePower>233.0</enginePower>
+    <color>#000000</color>
+  </sample.model.Car>
+  <sample.model.Car>
+    <make>Honda</make>
+    <model>Civic</model>
+    <yearOfProduction>2010</yearOfProduction>
+    <diesel>false</diesel>
+    <enginePower>112.0</enginePower>
+    <color>0xccffccff</color>
+  </sample.model.Car>
+</list>
